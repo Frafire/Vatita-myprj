@@ -9,6 +9,7 @@ use this command in cmd npx tailwindcss -i ./src/input.css -o ./dist/output.css 
   <title>VATITA</title>
 </head>
 <body>
+  <!-- Home page -->
   <div
   class="w-full h-screen bg-[url('https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg%27')] bg-cover bg-center">
   <div class="w-full h-full  backdrop-blur-sm ">
@@ -29,14 +30,24 @@ use this command in cmd npx tailwindcss -i ./src/input.css -o ./dist/output.css 
     </div>
   </div>
   </div>
-
-  <div class="bg-black bg-cover bg-center">
-
-  <h1 class="text-3xl font-bold text-white ">
-    Per questa sera pensavi di passare a prendere un po' di risotto o guardare dal alto il colosseo?
-  </h1>
-  
   </div>
+  <!-- Pagina Eventi -->
+  <div class="  flex flex-col justify-center items-center bg-black">
+    <h3 class=" text-8xl uppercase font-mono font-extrabold text-white">In cerca di un Evento?</h3>
+  <div class="container grid grid-cols-3 col-auto gap-x-24 mx-auto justify-center object-center">
+    <div class="w-full rounded">
+        <img src="https://vatsim-my.nyc3.digitaloceanspaces.com/events/2yLSXE4nhMQ3f41JWA5IW9lhg084aONfsklrPDgD.jpg"
+            alt="image-event">
+    </div>
+    <div class="w-full rounded">
+<img src="https://pbs.twimg.com/media/FN_bYgGXIAYMs2i.jpg" alt="imagine-event">
+    </div>
+    <div class="w-full rounded ">
+      <img src="https://pbs.twimg.com/media/FVDPLC2WYAAAavr?format=jpg&name=small" alt="image-event">
+    </div>
+
+  </div>
+</div>
 
 
 </body>
